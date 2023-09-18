@@ -8,6 +8,73 @@ export const CocoReport = forwardRef<HTMLDivElement, any>(({}, ref) => {
   //   const Logo = "https://www.cosqc.gov.iq/images/WLOGO.svg";
   const LogoCompany = "";
   const conditionLogo = false;
+
+  const headingTable = [
+    {
+      en: "item",
+      ar: "المادة",
+    },
+  ];
+
+  // const data: Table[] = [
+  //   {
+  //     item: "item 1",
+  //     declared: "declared 2",
+  //     //  goodsVallue: 333333,
+  //     //  originAsMarked: ".;hug;g;og;,kglgglg kllp khgkhfglyflfn",
+  //     goodsDescription: "ugbl;uh;g;",
+  //     iqStandard: 87246825348,
+  //   },
+  //   {
+  //     item: "kbjkvv.jlvb/j/;lbj/",
+  //     declared: ".kjg;g;ug;gjkb",
+  //     goodsVallue: 333333,
+  //     originAsMarked: ".;hug;g;og;",
+  //     goodsDescription: "ugbl;uh;g;",
+  //     iqStandard: 87246825348,
+  //   },
+  //   //   {
+  //   //     item: "kbjkvv.jlvb/j/;lbj/",
+  //   //     declared: ".kjg;g;ug;gjkb",
+  //   //     goodsVallue: 333333,
+  //   //     originAsMarked: ".;hug;g;og;",
+  //   //     goodsDescription: "ugbl;uh;g;",
+  //   //     iqStandard: 87246825348,
+  //   //   },
+  //   //   {
+  //   //     item: "kbjkvv.jlvb/j/;lbj/",
+  //   //     declared: ".kjg;g;ug;gjkb",
+  //   //     goodsVallue: 333333,
+  //   //     originAsMarked: ".;hug;g;og;",
+  //   //     goodsDescription: "ugbl;uh;g;",
+  //   //     iqStandard: 87246825348,
+  //   //   },
+  //   //   {
+  //   //     item: "kbjkvv.jlvb/j/;lbj/",
+  //   //     declared: ".kjg;g;ug;gjkb",
+  //   //     goodsVallue: 333333,
+  //   //     originAsMarked: ".;hug;g;og;",
+  //   //     goodsDescription: "ugbl;uh;g;",
+  //   //     iqStandard: 87246825348,
+  //   //   },
+  //   //   {
+  //   //     item: "kbjkvv.jlvb/j/;lbj/",
+  //   //     declared: ".kjg;g;ug;gjkb",
+  //   //     goodsVallue: 333333,
+  //   //     originAsMarked: ".;hug;g;og;",
+  //   //     goodsDescription: "ugbl;uh;g;",
+  //   //     iqStandard: 8888674564,
+  //   //   },
+  //   //   {
+  //   //     item: "kbjkvv.jlvb/j/;lbj/",
+  //   //     declared: ".kjg;g;ug;gjkb",
+  //   //     goodsVallue: 333333,
+  //   //     originAsMarked: ".;hug;g;og;",
+  //   //     goodsDescription: "ugbl;uh;g;",
+  //   //     iqStandard: 8888674564,
+  //   //   },
+  // ];
+
   return (
     <div className="mt-14  mx-auto px-6" ref={ref}>
       <header>
@@ -309,7 +376,8 @@ export const CocoReport = forwardRef<HTMLDivElement, any>(({}, ref) => {
             </div>
           </div>
         </div>
-        <Table />
+
+        {/* <Table headingTable={headingTable} /> */}
 
         <div className="font-bold flex mt-2 px-5 pt-3 pb-5 border-b-2 border-black">
           <h3 className="">

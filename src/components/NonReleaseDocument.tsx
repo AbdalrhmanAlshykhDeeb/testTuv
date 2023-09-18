@@ -68,8 +68,8 @@ const NonReleaseDocument = forwardRef<HTMLDivElement, any>(({}, ref) => {
 
       <div className="flex justify-center text-xl">
         <h2 className="font-bold text-center">
-          RELEASE DUCUMENT
-          <span className="block">وثيقة اطلاق</span>
+          NONE RELEASE DUCUMENT
+          <span className="block">وثيقة عدم اطلاق</span>
         </h2>
       </div>
 
@@ -84,7 +84,7 @@ const NonReleaseDocument = forwardRef<HTMLDivElement, any>(({}, ref) => {
                 classNameLabel="flex justify-between"
                 classNameInput="block text-center"
                 editMode={editMode}
-                labelEn="Registration No:"
+                labelEn="Entry point :"
                 labelAr="نقطة الدخول"
               />
             </form>

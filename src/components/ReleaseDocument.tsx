@@ -84,7 +84,7 @@ const ReleaseDocument = forwardRef<HTMLDivElement, any>(({}, ref) => {
                 classNameLabel="flex justify-between"
                 classNameInput="block text-center"
                 editMode={editMode}
-                labelEn="Registration No:"
+                labelEn="Entry point:"
                 labelAr="نقطة الدخول"
               />
             </form>

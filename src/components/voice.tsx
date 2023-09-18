@@ -1,6 +1,9 @@
 import ReactToPrint from "react-to-print";
 import { useRef } from "react";
 import NonReleaseDocument from "./NonReleaseDocument";
+import { NotAcceptReport } from "./NotAccept-report";
+import { CocoReport } from "./coc-report";
+import ReleaseDocument from "./ReleaseDocument";
 
 const Voice = () => {
   const ref = useRef<HTMLDivElement>(null);
